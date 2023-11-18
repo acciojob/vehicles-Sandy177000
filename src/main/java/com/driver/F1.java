@@ -46,7 +46,7 @@ public class F1 extends Car {
         }
     }
 
-    private int getCurrentDirection() {
-        return this.getCurrentDirect();
+    public int getCurrentDirection() {
+        return super.getCurrentDirection();
     }
 }
