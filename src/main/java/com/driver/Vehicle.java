@@ -11,7 +11,7 @@ public class Vehicle {
     }
 
     public int getCurrentDirection() {
-        return currentDirection;
+        return this.currentDirection;
     }
 
     public Vehicle(String name) {
